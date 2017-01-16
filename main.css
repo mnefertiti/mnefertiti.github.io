@@ -1,0 +1,218 @@
+/*Rebecca Jourard
+RaenyTuesday Media
+Bachelor of Media Studies Portfolio
+2017*/
+
+/*FONTS*/
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Economica', sans-serif;*/
+
+/*COLOURS*/
+/*
+Black - ffffff
+White - 000000
+Dark grey - 3d3f40
+Light grey - b8bdc0
+Dark Slate - 697780
+Light Slate - 829199
+Yellow - fffd73 */
+
+.main {
+    margin: 0;
+    background-image: url(Assets/city.JPG);
+    background-size: 100%;
+}
+
+h1 {
+    font-family: 'Economica', sans-serif;
+    font-size: 80px;
+    margin: 0 0 0 0;
+    color: white;
+}
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    font-size: 30px;
+    margin: 15px 0 15px 0;
+    color: white;
+}
+
+h3 {
+    font-family: 'Economica', sans-serif;
+    margin: 0 0 0 0;
+    
+}
+
+h4 {
+    font-family: 'Economica', sans-serif;
+    color: white;
+    font-size: 70px;
+    transform: rotate(-90deg);
+}
+
+h5 {
+    font-family: 'Roboto Slab', sans-serif;
+    color: #697780;
+    font-size: 40px;
+    margin: 0;
+    font-weight: lighter;
+}
+
+h6 {
+    font-family: 'Roboto Slab', sans-serif;
+    color: #697780;
+    font-size: 30px;
+    margin: 0;
+    font-weight: lighter; 
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+    color: #697780;
+    font-size: 16px;
+    
+}
+
+a:link {
+    color: #3d3f40;
+    text-decoration: none;
+}
+a:visited {
+    color: #3d3f40;
+    text-decoration: none;
+}
+a:hover {
+    color: #3d3f40;
+    text-decoration: none;
+}
+a:active {
+    color: #3d3f40;
+    text-decoration: none;
+}
+
+/*main page*/
+.logo {
+    background: rgba(31, 37, 40, 0.5);
+    text-align: left;
+    box-shadow: 20px 0 10px rgba(0,0,0,0.3), -30px 0 10px rgba(0,0,0,0.3);
+    max-height: 500px;
+    margin: 60px 0 20px 0;
+    display: flex;
+    vertical-align: top;
+    position: relative;
+    width: 100%;    
+}
+
+.title{
+    padding: 0px 15px 15px 15px;
+}
+
+.polaroids {
+    text-align: right;
+    display: inline-block;
+    margin: 0;    
+    position: absolute;
+    transform: translateY(10%) translateX(65%);
+}
+
+#pol {
+    padding: 15px 15px 15px 15px;
+    margin: 20px 0px 0px 0px;
+    opacity: 0.9;
+}
+
+/*other pages*/
+body {
+    margin: 0;
+    background-size: cover;
+}
+
+.sidebar {
+    background-color: #829199;
+    position: fixed;
+    height: 100%;
+    width: 200px;
+    margin: 0 0 0 0;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+}
+
+#home {
+    padding: 15px 15px;
+}
+
+#bottom {
+    position: fixed;
+    margin: 38px; 
+    left: 0;
+    bottom: 0;
+    
+}
+
+#about {
+    font-size: 90px;
+    margin: 80px 15px 50px 15px;
+}
+#nostalgia {
+    margin: 110px 15px 50px 15px;
+}
+#curatingcreativity {
+    margin: 80px 15px 50px 15px;
+}
+#adventures {
+    margin: 130px 15px 50px 15px;
+}
+
+.scrollable {
+    position: absolute;
+    left: 250px;
+    top: 0px;
+    right: 40px;
+    text-align: center;
+    padding: 30px;
+}
+.introtext {
+    padding: 10px;
+    text-align: center;
+}
+
+p.introtext {
+    font-style: italic;
+    color: #B2C1C9;
+    font-weight: 100;
+    text-align: center;
+}
+
+.media {
+    margin: 15px;
+    text-align: center;
+}
+
+.worktext {
+    padding: 0px 20px 20px 20px;
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+}
+
+.fifteen {
+    display: inline-flex;
+    text-align: left;
+    padding: 10px 120px 10px 50px;
+}
+.sixteen {
+    display: inline-flex;
+    text-align: right;
+    padding: 10px 50px 10px 120px;
+}
+
+.twenty {
+    position: relative;
+    display: block;
+    padding: 10px;
+    
+}
