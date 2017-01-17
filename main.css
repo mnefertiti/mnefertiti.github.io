@@ -92,6 +92,32 @@ a:active {
     text-decoration: none;
 }
 
+.embedlink1:link {
+    color: #A2B1B9;
+}
+.embedlink1:visited {
+    color: #A2B1B9;
+}
+.embedlink1:hover {
+    color: #697780;
+}
+.embedlink1:active {
+    color: #A2B1B9;
+}
+
+.embedlink2:link {
+    color: #697780;
+}
+.embedlink2:visited {
+    color: #697780;
+}
+.embedlink2:hover {
+    color: #A2B1B9;
+}
+.embedlink2:active {
+    color: #697780;
+}
+
 /*main page*/
 .logo {
     background: rgba(31, 37, 40, 0.5);
@@ -202,12 +228,12 @@ p.introtext {
 .fifteen {
     display: inline-flex;
     text-align: left;
-    padding: 10px 120px 10px 50px;
+    padding: 10px 60px 10px 50px;
 }
 .sixteen {
     display: inline-flex;
     text-align: right;
-    padding: 10px 50px 10px 120px;
+    padding: 10px 50px 10px 60px;
 }
 
 .twenty {
